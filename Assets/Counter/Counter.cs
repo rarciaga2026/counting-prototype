@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class Counter : MonoBehaviour
 {
     public Text CounterText;
+    
 
     private int Count = 0;
 
@@ -20,4 +21,5 @@ public class Counter : MonoBehaviour
         Count += 1;
         CounterText.text = "Count : " + Count;
     }
+
 }
